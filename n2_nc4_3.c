@@ -2,10 +2,10 @@
 
 int main() {
     int a = 10;
-    float b = 3.5;
-    float resultado = a + b; 
+    float b = 3;
+    float quociente = a / b; 
 
-    printf("Resultado: %.2f\n", resultado);
+    printf("Resultado: %f\n", quociente);
 
     return 0;
 }
