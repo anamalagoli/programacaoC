@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a = 10;
-    float b = 3;
-    float quociente = a / b; 
+    int num = 10;
+    float result = 10.0;
 
-    printf("Resultado: %f\n", quociente);
+    printf("num == result: %d\n", (float)num == result);
 
     return 0;
 }
